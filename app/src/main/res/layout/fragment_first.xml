@@ -27,7 +27,6 @@
         android:textColor="#A60C0C"
         android:textSize="28sp"
         app:layout_constraintBottom_toTopOf="@+id/textView12"
-        app:layout_constraintEnd_toStartOf="@+id/textView11"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -116,6 +115,8 @@
         android:id="@+id/textView16"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:backgroundTint="#C5F5FB"
         android:text="CURRENT"
         android:textAlignment="textStart"
         android:textColor="#040303"
